@@ -10,6 +10,8 @@ Across these tracks, participants will build, fine‑tune, and evaluate state‑
 
 # Solution
 
-We finetune Whisper-Large using the provided supervised data. We focus on 95% quantiles of data ie. 
+We finetune Whisper-Large using the provided supervised data. We focus on 95% quantiles of data. From EDA, we can see that:
+- 95% of audio files lie between 10s and 30s
+- 95% of audio files are related to a handful of speaker voices
 
 Model currently ranked #10 out of 100's of submissions, challenge due in 2 weeks.
